@@ -28,9 +28,12 @@ twitter_username:
 github_username:  andrewazores
 
 # Build settings
+error_mode: strict
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,3 +54,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+paginate: 5
+paginate_path: "/page:num/"
+
+permalink: /:categories/:title/

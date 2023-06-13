@@ -2,6 +2,6 @@
 
 ```bash
 $ bundle install
-$ gem install jekyll jekyll-paginate
+$ gem install github-pages
 $ bundle exec jekyll serve --open --future --livereload
 ```
